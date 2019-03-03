@@ -1,0 +1,8 @@
+// dev only styles
+// setting $dev to true in global will enable these styles
+
+@if $dev == true {
+  body {
+    background-color: red;
+  }
+}
